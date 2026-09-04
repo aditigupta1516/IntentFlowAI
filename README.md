@@ -127,6 +127,26 @@ npm run build
 
 ---
 
+## 🚀 Deployment to GitHub & GitHub Pages
+
+This repository includes a pre-configured **GitHub Actions CI/CD Workflow** (`.github/workflows/deploy.yml`) for instant automated deployment:
+
+1. **Create a new repository** on [GitHub](https://github.com/new) (e.g. `intentflow-ai`).
+2. **Push your code**:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/intentflow-ai.git
+   git branch -M main
+   git push -u origin main
+   ```
+3. **Enable GitHub Pages**:
+   - Go to your repository on GitHub: **Settings** → **Pages**.
+   - Under **Build and deployment** → **Source**, select **GitHub Actions**.
+4. **Access your live site**:
+   - Within 1–2 minutes, GitHub Actions will build and deploy your site to:
+   - `https://YOUR_USERNAME.github.io/intentflow-ai/`
+
+---
+
 ## 🏆 Razorpay Track 1 Compliance Matrix
 
 | Requirement | Implementation in IntentFlow AI |
