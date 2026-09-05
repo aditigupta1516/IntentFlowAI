@@ -125,6 +125,22 @@ export const DashboardPage: React.FC = () => {
             <p className="text-dim text-xs sm:text-base leading-relaxed">
               Stop switching between 10 apps. Type <b>whatever product you need</b> (skincare, washing machines, toys, air fryers, clothes, gadgets) and IntentFlow extracts verified listings across <b className="text-white">Amazon, Flipkart, Myntra, Nykaa, and Meesho</b> with direct 1-click links to buy.
             </p>
+
+            <div className="flex items-center gap-3 pt-2 flex-wrap">
+              <Link
+                to="/pitch"
+                className="btn-primary text-xs py-2 px-4 flex items-center gap-2 font-bold shadow-glow-blue"
+              >
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>▶ Watch 5-Min AI Pitch Demo</span>
+              </Link>
+              <Link
+                to="/overview"
+                className="btn-secondary text-xs py-2 px-3.5 flex items-center gap-1.5 font-mono"
+              >
+                <span>Architecture</span>
+              </Link>
+            </div>
           </div>
 
           {/* Right Status Panel */}

@@ -24,6 +24,7 @@ import { MerchantAnalyticsPage } from './pages/MerchantAnalyticsPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { LoginPage } from './pages/auth/LoginPage';
 import { SignupPage } from './pages/auth/SignupPage';
+import { PitchStudioPage } from './pages/PitchStudioPage';
 
 export function App() {
   return (
@@ -44,6 +45,7 @@ export function App() {
                 <Route path="/overview" element={<LandingPage />} />
                 <Route path="/agent" element={<AgentWorkspacePage />} />
                 <Route path="/dashboard" element={<DashboardPage />} />
+                <Route path="/pitch" element={<PitchStudioPage />} />
                 <Route path="/bundles" element={<SavedBundlesPage />} />
                 <Route path="/analytics" element={<MerchantAnalyticsPage />} />
                 <Route path="/settings" element={<SettingsPage />} />

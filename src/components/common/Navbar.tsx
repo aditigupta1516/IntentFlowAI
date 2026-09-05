@@ -16,7 +16,8 @@ export const Navbar: React.FC = () => {
     { label: 'AI Agent Workspace', path: '/agent' },
     { label: 'Saved Bundles', path: '/bundles' },
     { label: 'Merchant Analytics', path: '/analytics' },
-    { label: 'Architecture Overview', path: '/overview' }
+    { label: 'Architecture Overview', path: '/overview' },
+    { label: '▶ 5-Min Pitch Demo', path: '/pitch' }
   ];
 
   return (
